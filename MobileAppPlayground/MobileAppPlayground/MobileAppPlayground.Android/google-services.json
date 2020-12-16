@@ -1,39 +1,39 @@
 {
-  "project_info": {
-    "project_number": "722754670910",
-    "project_id": "xamarin-playground-5c70f",
-    "storage_bucket": "xamarin-playground-5c70f.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:722754670910:android:cfedd7ca9a1af1d41f9c6f",
-        "android_client_info": {
-          "package_name": "com.xamarin.mobileappplayground"
-        }
-      },
-      "oauth_client": [
+    "project_info": {
+        "project_number": "722754670910",
+        "project_id": "xamarin-playground-5c70f",
+        "storage_bucket": "xamarin-playground-5c70f.appspot.com"
+    },
+    "client": [
         {
-          "client_id": "722754670910-ugfh78f9s437nuq5r6q4se98mtbu6s2h.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDVAzV5IQnatxiX73oB2XCmxM4mt-zDkEU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "722754670910-ugfh78f9s437nuq5r6q4se98mtbu6s2h.apps.googleusercontent.com",
-              "client_type": 3
+            "client_info": {
+                "mobilesdk_app_id": "1:722754670910:android:cfedd7ca9a1af1d41f9c6f",
+                "android_client_info": {
+                    "package_name": "com.xamarin.mobileappplayground"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "722754670910-ugfh78f9s437nuq5r6q4se98mtbu6s2h.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyDVAzV5IQnatxiX73oB2XCmxM4mt-zDkEU"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "722754670910-ugfh78f9s437nuq5r6q4se98mtbu6s2h.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
             }
-          ]
         }
-      }
-    }
-  ],
-  "configuration_version": "1"
+    ],
+    "configuration_version": "1"
 }

@@ -12,7 +12,7 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+"
+        <ToolbarItem Text="+" AutomationId="AddNoteBtn"
                      Clicked="OnNoteAddedClicked" />
     </ContentPage.ToolbarItems>
 
