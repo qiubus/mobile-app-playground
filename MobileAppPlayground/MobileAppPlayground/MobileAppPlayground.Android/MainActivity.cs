@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System.Net;
+using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Gms.Common;
@@ -17,6 +18,9 @@ namespace MobileAppPlayground.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            //ServicePointManager.ServerCertificateValidationCallback += (o, cert, chain, errors) => true;
+
 
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
@@ -72,7 +76,7 @@ namespace MobileAppPlayground.Droid
             }
 
             var channel = new NotificationChannel(CHANNEL_ID,
-                "FCM Notifications",
+                "360 channel",
                 NotificationImportance.Default)
             {
 
